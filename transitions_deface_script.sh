@@ -8,7 +8,7 @@ Usage() {
 [ ‘$1’ = ‘’ ] && Usage
 
 # Subject list for loop
-subs=`cat ${1}`          # make sure txt file is full fib file names
+subs=`cat ${1}`
 
 for sub in ${subs}
 do
