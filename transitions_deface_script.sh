@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 Usage() {
 	echo ‘Usage: WIN_dsi_trk_loop deface-sub-list.txt’
