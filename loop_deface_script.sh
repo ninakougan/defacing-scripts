@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 
 Usage() {
-	echo ‘Usage: WIN_dsi_trk_loop list_of_file.txt’
-        exit 0
+	echo ‘Usage: WIN_dsi_trk_loop paths.txt‘
+	exit 0
 }
 
 [ ‘$1’ = ‘’ ] && Usage

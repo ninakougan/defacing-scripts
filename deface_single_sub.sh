@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 #
 #SBATCH -A p31589
-#SBATCH -p normal
-#SBATCH -t 00:25:00
-#SBATCH --mem=3G
+#SBATCH -p short
+#SBATCH -t 00:30:00
+#SBATCH --mem=64G
 #SBATCH -J deface
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=ninakougan@northwestern.edu
