@@ -6,7 +6,6 @@
 #SBATCH --mem=64G
 #SBATCH -J deface
 #SBATCH --mail-type=END,FAIL
-#SBATCH --mail-user=ninakougan@northwestern.edu
 
 
 pydeface ${1}
